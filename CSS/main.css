@@ -1,0 +1,91 @@
+*{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+   
+    
+}
+.all{
+    min-height: 100vh !important;
+    background-color: #F7ECDE !important;
+    z-index: 999 !important;
+
+}
+.content{
+    position: relative;
+    z-index: 999 !important;
+}
+.hins{
+    position: absolute !important;
+    top: 40%;
+    left: 25%;
+    background-color: white;
+    text-align: start;
+    height: 30%;
+    z-index: 9999 !important;
+
+
+}
+.done{
+    position: absolute !important;
+    top: 40%;
+    left: 25%;
+    background-color: white;
+    text-align: start;
+    z-index: 9999 !important;
+    width: 50% !important;
+
+}
+
+.this{
+    background-color: #F7ECDE !important;
+} 
+.table{
+    width: 75% !important;
+    text-align: center !important;
+}
+
+.ico{
+    width: fit-content !important;
+}
+h2{
+    background: linear-gradient(to right , green , yellow);
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+
+.back{
+    position: relative !important;
+    overflow:hidden;
+    height: 80px;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+.layer{
+   
+    position: absolute !important;
+    top: 55px !important;
+  
+    height: 700px !important ;
+    background-color: aqua;
+ 
+    width: 100% !important;
+    transition: 1s 0s top ;
+    z-index: -1 !important;
+}
+.back:hover .layer {
+    top: 30px !important ;
+}
+
+.done p{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 500;
+}
+label{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: 500;
+}
